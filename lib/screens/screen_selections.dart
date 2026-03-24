@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:marfahtasks/screens/Login%20B/LoginPageB.dart';
 import 'package:marfahtasks/screens/LoginA/login_page.dart';
 
 class ScreenSelect extends StatelessWidget {
@@ -70,12 +71,12 @@ class ScreenSelect extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => const LoginPageB(),
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const LoginpageB(),
+                  ),
+                );
               },
               child: const Text(
                 "Login B",
